@@ -17,7 +17,7 @@
 namespace shuliangfu\async;
 
 use Yii;
-use common\async\src\SwooleService;
+use shuliangfu\async\src\SwooleService;
 use yii\console\Controller;
 
 
