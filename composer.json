@@ -1,15 +1,15 @@
 {
   "name": "shuliangfu/yii2-async-worker",
-  "description": "基于swoole写的yii2后台任务处理",
+  "description": "Based on swoole's yii2 async work",
   "type": "yii2-extension",
   "keywords": [
     "yii2",
     "extension"
   ],
-  "license": "BSD-3-Clause",
+  "license": "MIT",
   "authors": [
     {
-      "name": "舒良府",
+      "name": "shuliangfu",
       "email": "admin@shuliangfu.com"
     }
   ],
@@ -28,3 +28,4 @@
     }
   }
 }
+
