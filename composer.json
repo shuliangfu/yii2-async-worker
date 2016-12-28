@@ -1,22 +1,30 @@
 {
-    "name": "shuliangfu/yii2-async-worker",
-    "description": "基于swoole写的yii2后台任务处理",
-    "homepage": "https://github.com/shuliangfu/yii2-async-worker",
-    "type": "yii2-extension",
-    "keywords": ["yii2","extension"],
-    "license": "BSD-3-Clause",
-    "authors": [
-        {
-            "name": "shuliangfu",
-            "email": "admin@shuliangfu.com"
-        }
-    ],
-    "require": {
-        "yiisoft/yii2": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "shuliangfu\\async\\": ""
-        }
+  "name": "shuliangfu/yii2-async-worker",
+  "description": "基于swoole写的yii2后台任务处理",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "舒良府",
+      "email": "admin@shuliangfu.com"
     }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/shuliangfu/yii2-async-worker"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "shuliangfu\\async\\": ""
+    }
+  }
 }

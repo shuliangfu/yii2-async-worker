@@ -61,4 +61,14 @@ class AsyncWorkerController extends Controller
                 break;
         }
     }
+
+
+    public function actionSendMail($to, $title, $message)
+    {
+        $mail = Yii::$app->mailer->compose();
+        $mail->setTo($to);
+        $mail->setSubject($title);
+        $mail->setHtmlBody($message);
+        $mail->send();
+    }
 }
