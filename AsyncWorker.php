@@ -1,7 +1,5 @@
 <?php
-
 namespace shuliangfu\async;
-
 
 use Yii;
 use yii\base\Component;
